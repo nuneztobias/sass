@@ -1,0 +1,61 @@
+nav {
+  background-color: $color-oscuro;
+  font-weight: 500;
+
+  &__ButtonStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+header {
+  span {
+    color: $color-primario;
+    transition: 0.5s ease all;
+
+    &:hover {
+      color: $color-secundario;
+    }
+    &:active {
+      color: $color-secundario;
+    }
+  }
+
+  a {
+    color: $color-primario;
+    transition: 0.5s ease all;
+
+    &:hover {
+      color: $color-secundario;
+    }
+    &:active {
+      color: $color-secundario;
+    }
+  }
+
+  .navLink {
+    &__buttons {
+      background: $color-primario;
+      border-radius: 50px;
+      color: $color-oscuro;
+      transition: 0.5s ease all;
+
+      &:active {
+        background: $color-secundario;
+        color: $color-oscuro;
+      }
+
+      &:hover {
+        background: $color-secundario;
+        color: $color-oscuro;
+      }
+      .logo {
+        color: $color-primario;
+      }
+    }
+  }
+}
