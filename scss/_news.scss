@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .newsCard {
   width: 18rem;
 }
@@ -17,3 +18,24 @@
     height: 600px;
   }
 }
+=======
+.newsCard {
+  width: 18rem;
+}
+
+.newsTitle {
+  margin: 0 auto;
+  color: $color-primario;
+  text-align: center;
+}
+
+.carousel {
+  &__Style {
+    max-height: 600px;
+  }
+
+  &__Item {
+    height: 600px;
+  }
+}
+>>>>>>> 8748c9179aa2953919b44d21bd12542b91f2f79b
