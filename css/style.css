@@ -1,0 +1,110 @@
+body {
+  background-image: url(../img/background.png);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 4.5rem;
+  height: 200vh;
+}
+
+.title1 {
+  margin: 0 auto;
+  color: #50b25b;
+  text-align: center;
+}
+
+nav {
+  background-color: #1f1f1f;
+  font-weight: 500;
+}
+nav__ButtonStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav:focus {
+  box-shadow: none;
+}
+
+header span {
+  color: #50b25b;
+  transition: 0.5s ease all;
+}
+header span:hover {
+  color: #bfffc7;
+}
+header span:active {
+  color: #bfffc7;
+}
+header a {
+  color: #50b25b;
+  transition: 0.5s ease all;
+}
+header a:hover {
+  color: #bfffc7;
+}
+header a:active {
+  color: #bfffc7;
+}
+header .navLink__buttons {
+  background: #50b25b;
+  border-radius: 50px;
+  color: #1f1f1f;
+  transition: 0.5s ease all;
+}
+header .navLink__buttons:active {
+  background: #bfffc7;
+  color: #1f1f1f;
+}
+header .navLink__buttons:hover {
+  background: #bfffc7;
+  color: #1f1f1f;
+}
+header .navLink__buttons .logo {
+  color: #50b25b;
+}
+
+footer {
+  background-color: #1f1f1f;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.newsCard {
+  width: 18rem;
+}
+
+.newsTitle {
+  margin: 0 auto;
+  color: #50b25b;
+  text-align: center;
+}
+
+.carousel__Style {
+  max-height: 600px;
+}
+.carousel__Item {
+  height: 600px;
+}
+
+.login__Tittle {
+  color: #50b25b;
+}
+.login__Section {
+  margin: 0 auto;
+  margin-top: 25%;
+}
+.login__Button {
+  background-color: #50b25b;
+}
+.login__Button:active {
+  background: #bfffc7;
+  color: white;
+}
+.login__Button:hover {
+  transform: scaleY(1.3);
+  background: #bfffc7;
+}
+
+/*# sourceMappingURL=style.css.map */

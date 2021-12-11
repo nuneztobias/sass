@@ -1,0 +1,19 @@
+.newsCard {
+  width: 18rem;
+}
+
+.newsTitle {
+  margin: 0 auto;
+  color: $color-primario;
+  text-align: center;
+}
+
+.carousel {
+  &__Style {
+    max-height: 600px;
+  }
+
+  &__Item {
+    height: 600px;
+  }
+}
